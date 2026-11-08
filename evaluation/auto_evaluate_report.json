@@ -1,0 +1,376 @@
+{
+  "generated_at": "2026-11-08T07:03:50.044879+00:00",
+  "mode": "api",
+  "cases": [
+    {
+      "id": "EX-Q01",
+      "dataset": "excel-main",
+      "question": "2024年1月至2025年12月共有多少笔已送达订单？",
+      "status": "PASS",
+      "detail": "通过"
+    },
+    {
+      "id": "EX-Q02",
+      "dataset": "excel-main",
+      "question": "2024年1月至2025年12月已送达订单的商品销售额是多少？不含运费。",
+      "status": "PASS",
+      "detail": "通过"
+    },
+    {
+      "id": "EX-Q03",
+      "dataset": "excel-main",
+      "question": "4月商品销售额较3月增长多少？",
+      "status": "PASS",
+      "detail": "通过"
+    },
+    {
+      "id": "EX-Q04",
+      "dataset": "excel-main",
+      "question": "4月商品销售额最高的品类是什么？金额是多少？",
+      "status": "PASS",
+      "detail": "通过"
+    },
+    {
+      "id": "EX-Q05",
+      "dataset": "excel-main",
+      "question": "5月已送达订单不少于10笔的商家中，延迟率最高的是谁？",
+      "status": "PASS",
+      "detail": "通过"
+    },
+    {
+      "id": "EX-Q06",
+      "dataset": "excel-main",
+      "question": "有评价的已送达订单中，延迟订单与准时订单的平均评分分别是多少？",
+      "status": "PASS",
+      "detail": "通过"
+    },
+    {
+      "id": "EX-Q07",
+      "dataset": "excel-main",
+      "question": "有多少自然客户完成了至少2笔已送达订单？",
+      "status": "PASS",
+      "detail": "通过"
+    },
+    {
+      "id": "EX-Q08",
+      "dataset": "excel-main",
+      "question": "直接关联商品明细和支付表为什么会导致金额重复？",
+      "status": "PASS",
+      "detail": "通过"
+    },
+    {
+      "id": "CSV-Q01",
+      "dataset": "csv-demo",
+      "question": "2025年1月至6月共有多少笔已送达订单？",
+      "status": "PASS",
+      "detail": "通过"
+    },
+    {
+      "id": "CSV-Q02",
+      "dataset": "csv-demo",
+      "question": "2025年1月至6月已送达订单的商品销售额是多少？不含运费。",
+      "status": "PASS",
+      "detail": "通过"
+    },
+    {
+      "id": "CSV-Q03",
+      "dataset": "csv-demo",
+      "question": "4月商品销售额较3月增长多少？",
+      "status": "PASS",
+      "detail": "通过"
+    },
+    {
+      "id": "CSV-Q04",
+      "dataset": "csv-demo",
+      "question": "4月商品销售额最高的品类是什么？金额是多少？",
+      "status": "PASS",
+      "detail": "通过"
+    },
+    {
+      "id": "CSV-Q05",
+      "dataset": "csv-demo",
+      "question": "5月已送达订单不少于3笔的商家中，延迟率最高的是谁？",
+      "status": "PASS",
+      "detail": "通过"
+    },
+    {
+      "id": "CSV-Q06",
+      "dataset": "csv-demo",
+      "question": "有评价的已送达订单中，延迟订单与准时订单的平均评分分别是多少？",
+      "status": "PASS",
+      "detail": "通过"
+    },
+    {
+      "id": "CSV-Q07",
+      "dataset": "csv-demo",
+      "question": "有多少自然客户完成了至少2笔已送达订单？",
+      "status": "PASS",
+      "detail": "通过"
+    },
+    {
+      "id": "CSV-Q08",
+      "dataset": "csv-demo",
+      "question": "直接关联商品明细和支付表为什么会导致金额重复？",
+      "status": "PASS",
+      "detail": "通过"
+    },
+    {
+      "id": "PDF",
+      "dataset": "excel-main",
+      "question": "2025年4月已送达订单商品销售额比3月变化多少？哪个品类贡献最大？能确定增长是促销带来的吗？",
+      "status": "PASS",
+      "detail": "通过"
+    },
+    {
+      "id": "E01",
+      "dataset": "excel-main",
+      "question": "2024年4月商品销售额较3月变化多少？",
+      "status": "PASS",
+      "detail": "通过"
+    },
+    {
+      "id": "E02",
+      "dataset": "excel-main",
+      "question": "2024年4月商品销售额最高的品类是什么？",
+      "status": "PASS",
+      "detail": "通过"
+    },
+    {
+      "id": "E03",
+      "dataset": "excel-main",
+      "question": "2025年6月商品销售额是多少？",
+      "status": "PASS",
+      "detail": "通过"
+    },
+    {
+      "id": "E04",
+      "dataset": "excel-main",
+      "question": "2025年各月商品销售额",
+      "status": "PASS",
+      "detail": "通过"
+    },
+    {
+      "id": "E05",
+      "dataset": "excel-main",
+      "question": "2025年商品销售额按客户所在州分组",
+      "status": "PASS",
+      "detail": "通过"
+    },
+    {
+      "id": "E06",
+      "dataset": "excel-main",
+      "question": "2025年4月按支付方式拆分支付金额",
+      "status": "PASS",
+      "detail": "通过"
+    },
+    {
+      "id": "E07",
+      "dataset": "excel-main",
+      "question": "2025年4月已送达订单的运费是多少？",
+      "status": "PASS",
+      "detail": "通过"
+    },
+    {
+      "id": "E08",
+      "dataset": "excel-main",
+      "question": "2024年1月至2025年12月低分评价率是多少？",
+      "status": "PASS",
+      "detail": "通过"
+    },
+    {
+      "id": "E09",
+      "dataset": "excel-main",
+      "question": "2025年5月已送达订单不少于20笔的商家中，延迟率最低的是谁？",
+      "status": "PASS",
+      "detail": "通过"
+    },
+    {
+      "id": "E10",
+      "dataset": "excel-main",
+      "question": "2025年客单价是多少？",
+      "status": "PASS",
+      "detail": "通过"
+    },
+    {
+      "id": "E11",
+      "dataset": "excel-main",
+      "question": "2025年3月比2月销售额变化多少？哪个品类贡献最大？",
+      "status": "PASS",
+      "detail": "通过"
+    },
+    {
+      "id": "E13",
+      "dataset": "excel-main",
+      "question": "2025年10月商品销售额是多少？",
+      "status": "PASS",
+      "detail": "通过"
+    },
+    {
+      "id": "E14",
+      "dataset": "excel-main",
+      "question": "2024年7月至9月商品销售额",
+      "status": "PASS",
+      "detail": "通过"
+    },
+    {
+      "id": "E15",
+      "dataset": "excel-main",
+      "question": "2025年低分评价率是多少？",
+      "status": "PASS",
+      "detail": "通过"
+    },
+    {
+      "id": "E16",
+      "dataset": "excel-main",
+      "question": "2025年4月15日至4月20日商品销售额",
+      "status": "PASS",
+      "detail": "通过"
+    },
+    {
+      "id": "E17",
+      "dataset": "excel-main",
+      "question": "2025年上半年月均商品销售额是多少？",
+      "status": "PASS",
+      "detail": "通过"
+    },
+    {
+      "id": "E18",
+      "dataset": "excel-main",
+      "question": "2025年4月已送达订单客单价",
+      "status": "PASS",
+      "detail": "通过"
+    },
+    {
+      "id": "E19",
+      "dataset": "excel-main",
+      "question": "2025年4月商品销售额前3名的商家",
+      "status": "PASS",
+      "detail": "通过"
+    },
+    {
+      "id": "E21",
+      "dataset": "excel-main",
+      "question": "2025年各订单状态的订单数",
+      "status": "PASS",
+      "detail": "通过"
+    },
+    {
+      "id": "E22",
+      "dataset": "excel-main",
+      "question": "2025年4月商品销售额比3月，按客户州看贡献",
+      "status": "PASS",
+      "detail": "通过"
+    },
+    {
+      "id": "C09",
+      "dataset": "csv-demo",
+      "question": "2025年3月商品销售额是多少？",
+      "status": "PASS",
+      "detail": "通过"
+    },
+    {
+      "id": "C10",
+      "dataset": "csv-demo",
+      "question": "2025年各月订单数",
+      "status": "PASS",
+      "detail": "通过"
+    },
+    {
+      "id": "C11",
+      "dataset": "csv-demo",
+      "question": "2025年6月已送达订单数是多少？",
+      "status": "PASS",
+      "detail": "通过"
+    },
+    {
+      "id": "C12",
+      "dataset": "csv-demo",
+      "question": "2025年按支付方式的支付金额",
+      "status": "PASS",
+      "detail": "通过"
+    },
+    {
+      "id": "C13",
+      "dataset": "csv-demo",
+      "question": "2025年客单价",
+      "status": "PASS",
+      "detail": "通过"
+    },
+    {
+      "id": "C14",
+      "dataset": "csv-demo",
+      "question": "2025年1月至6月的月均商品销售额",
+      "status": "PASS",
+      "detail": "通过"
+    },
+    {
+      "id": "C15",
+      "dataset": "csv-demo",
+      "question": "2025年6月低分评价率",
+      "status": "PASS",
+      "detail": "通过"
+    },
+    {
+      "id": "C16",
+      "dataset": "csv-demo",
+      "question": "2025年6月商品销售额最高的商家",
+      "status": "PASS",
+      "detail": "通过"
+    },
+    {
+      "id": "C18",
+      "dataset": "csv-demo",
+      "question": "4月销售额比3月增长了多少",
+      "status": "PASS",
+      "detail": "通过"
+    },
+    {
+      "id": "E12",
+      "dataset": "excel-main",
+      "question": "2025年完成至少3笔已送达订单的自然客户有多少？",
+      "status": "PASS",
+      "detail": "拒绝信息: 复购客户口径固定为至少2笔已送达订单"
+    },
+    {
+      "id": "E20",
+      "dataset": "excel-main",
+      "question": "2025年利润率是多少？",
+      "status": "PASS",
+      "detail": "拒绝信息: 当前数据没有成本、流量、广告或库存等所需记录，不能计算该指标。可分析销售额、订单、履约、评价和复购。"
+    },
+    {
+      "id": "C17",
+      "dataset": "csv-demo",
+      "question": "2025年利润",
+      "status": "PASS",
+      "detail": "拒绝信息: 当前数据没有成本、流量、广告或库存等所需记录，不能计算该指标。可分析销售额、订单、履约、评价和复购。"
+    }
+  ],
+  "flows": [
+    {
+      "id": "F01a",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "F01b",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "F01c",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "F01d",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "F02",
+      "status": "PASS",
+      "detail": ""
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+services:
+  agent:
+    build: .
+    ports:
+      - "127.0.0.1:8000:8000"
+    environment:
+      AGENT_MODE: rules
+      SOURCE_ROOT: /materials
+      DATA_DIR: /app/data
+    volumes:
+      # 将包含赛题材料（ecommerce_agent_demo.xlsx / ecommerce_agent_demo_csv.zip）
+      # 的目录挂载为 /materials；也可改为你本机的材料目录绝对路径。
+      - ../:/materials:ro
+      - agent-data:/app/data
+volumes:
+  agent-data:
